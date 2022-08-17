@@ -22,6 +22,7 @@ public static void main(String[] args) {
    JOptionPane.showInputDialog("enter a name");
 		// 3. In a pop-up, tell the user what is remarkable about that person. 
 
-	}
 }
+	}
+
 
