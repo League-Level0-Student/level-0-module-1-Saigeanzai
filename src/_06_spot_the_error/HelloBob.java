@@ -11,9 +11,13 @@ public static void main(String[] args) {
 	
 	String name = JOptionPane.showInputDialog("What is your name?");
 	
-	if (name.equals("Bob")) {
+	if (name.equalsIgnoreCase("Bob")) {
 	JOptionPane.showMessageDialog(null,"Hello Bob");
 	} 
+	else if (name.equalsIgnoreCase("Saige")) {
+		JOptionPane.showMessageDialog(null,"Hello Saige");
+		} 
+
 	else {
 		JOptionPane.showMessageDialog(null,"You're not Bob!!!" );
 	}
